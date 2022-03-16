@@ -1,0 +1,288 @@
+
+.bg-img{
+    /* background-image: url('./images/173782.jpg'); */
+    background:linear-gradient( rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url('./images/514ac38dafda9005cdd2d9e283d62482.jpg');
+    background-size: cover; 
+    min-height: 100%;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+ul>li{
+    display: inline;
+    float: right;
+    margin: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+ul>.contact{
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+
+ul{
+    display: inline;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+nav{
+    background: #6769cd38;
+   
+}
+.logo{
+    display: inline;
+    padding-left: 20px;
+    cursor: pointer;
+}
+img{
+    width: 75px;
+    height: auto;
+    padding: 7px;
+}
+ body{
+    margin: 0;
+}
+.text-container{
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+.description{
+    font-size: 3.5rem;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+}
+.name-heading{
+    color: #97e123;
+}
+/* center form element */
+.form-container{
+    text-align: center;
+    margin-top: 75px;
+    padding-bottom: 135px;
+
+}
+.form-container>form>input{
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius:  10px 0 0 10px;
+    background-color: transparent;
+}
+.form-container input:focus{
+    outline: none;
+}
+.form-container>form>button{
+   font-size: 1rem;
+   padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 0 10px 10px 0;
+    background: #9e2424;
+    color: #000;
+    cursor: pointer;
+}
+label{
+    font-size: 1.5rem;
+}
+
+/* about me section */
+.aboutme{
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+.icons-container{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.aboutme-heading, .icons-container{
+text-align: center;
+}
+.icons-container>i{
+    font-size: 2.5rem;
+    color: #3f1ad5;
+    margin: 20px;
+    cursor: pointer;
+}
+.aboutme-heading{
+    color: #3f1ad5;
+    padding-bottom: 30px;
+}
+.aboutme-container{
+    background-color: #fff;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* project section */
+.myprojects{
+    font-size: 1rem;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #3f1ad5;
+    padding-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project-container{
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.project-card{
+    width: 300px;
+    height: auto;
+    border: 1px solid #000000;
+    background-color: #97e123;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.preview-bt{
+    background-color: #3f1ad5;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: 50%;
+    font-family: 'Teko', sans-serif;
+}
+.project-heading{
+    color: #fff;
+}
+.project-description{
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: left;
+    text-align: justify;
+    color: #fff;
+}
+/* diff section */
+.diff-container{
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.diff-heading-description{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+.diff-icons{
+    display: flex;
+    margin: 25px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fab, .fas{
+    font-size: 60px;
+    margin: 10px;
+    color: #3f1ad5;
+}
+
+/* skill section */
+.skill-section-container{
+    background-color: #3f1ad5;
+    padding-top: 40px;
+}
+
+.skill-heading-description{
+    margin-left: 300px;
+    margin-right:300px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skill-heading{
+    text-align: center;
+}
+.skill-description{
+    text-align: justify;
+}
+.skill-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding : 30px;
+}
+.container{
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+.skill{
+    text-align: right;
+    color: #000000;
+}
+.html{
+    width: 90%;
+    background-color: #97e123;
+    border-radius: 50px;
+}
+.css{
+    width: 70%;
+    background-color: #ec2edd;
+    border-radius: 50px;
+}
+.javascript{
+    width: 90%;
+    background-color: rgb(230, 139, 36);
+    border-radius: 50px;
+}
+.java{
+    width: 70%;
+    background-color: #1ddddd;
+    border-radius: 50px;
+}
+.sql{
+    width: 80%;
+    background-color: #269926;
+    border-radius: 50px;
+}
+.experience-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.experience-heading{
+    text-align: center;
+    color: #3f1ad5;
+    padding-top: 50px;
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    margin: 20px;
+}
